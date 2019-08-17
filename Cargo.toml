@@ -1,0 +1,10 @@
+[package]
+name = "async-std-tokio-compat"
+version = "0.1.0"
+authors = ["Frank Denis <github@pureftpd.org>"]
+edition = "2018"
+
+[dependencies]
+async-std = "0.99"
+tokio = "0.2.0-alpha"
+futures-preview = "0.3.0-alpha"
